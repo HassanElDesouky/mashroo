@@ -1,0 +1,88 @@
+{
+    
+    "response":{
+        "mashroos":[
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Masnaa St.",
+                    "lat":31.111316,
+                    "lng":30.952201
+                    }
+                    },
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Mawqaf",
+                    "lat":31.113191,
+                    "lng":30.956502
+                    }
+                    },
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Mawqaf",
+                    "lat":31.118683,
+                    "lng":30.955202
+                    }
+                    },
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Estad",
+                    "lat":31.110425,
+                    "lng":30.948258
+                    }
+                    },
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Nasr Square",
+                    "lat":31.108614,
+                    "lng":30.943364
+                    }
+                    },
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Gamaa",
+                    "lat":31.102355,
+                    "lng":30.946279
+                    }
+                    },
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Gamaa",
+                    "lat":31.100821,
+                    "lng":30.947041
+                    }
+                    },
+                    {
+                    "name":"mashroo"
+                    ,
+                    "location":{
+                    "address":"El Gamaa",
+                    "lat":31.097059,
+                    "lng":30.946252
+                    }
+                    },
+                    {
+                    "name":"mashroo",
+                    "location":{
+                    "address":"El Gamaa",
+                    "lat":31.099392,
+                    "lng":30.946923
+                    }
+                    
+                    }
+            ]
+    }
+}

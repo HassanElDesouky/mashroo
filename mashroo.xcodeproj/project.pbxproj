@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A006DA1203FA54100651026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A006DA0203FA54100651026 /* AppDelegate.swift */; };
+		9A006DA3203FA54100651026 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A006DA2203FA54100651026 /* MapViewController.swift */; };
+		9A006DA6203FA54100651026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A006DA4203FA54100651026 /* Main.storyboard */; };
+		9A006DA8203FA54100651026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A006DA7203FA54100651026 /* Assets.xcassets */; };
+		9A006DAB203FA54100651026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A006DA9203FA54100651026 /* LaunchScreen.storyboard */; };
+		9A006DB6203FA5DC00651026 /* Mashroos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A006DB5203FA5DC00651026 /* Mashroos.swift */; };
+		9A006DB8203FA5FE00651026 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A006DB7203FA5FE00651026 /* GoogleService-Info.plist */; };
+		9A006DBE203FB42400651026 /* Mashroos.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A006DBD203FB42400651026 /* Mashroos.json */; };
+		9A23FEE22046CB2A000CA741 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23FEE12046CB2A000CA741 /* FavoritesTableViewController.swift */; };
+		9A90A2D420421FCF00B3E1AD /* AnnotationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90A2D320421FCF00B3E1AD /* AnnotationDetailViewController.swift */; };
+		9A90A2D620421FD500B3E1AD /* AnnotationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2D520421FD500B3E1AD /* AnnotationDetailViewController.xib */; };
+		9A90A2E420423B4700B3E1AD /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2D820423B4500B3E1AD /* Roboto-Light.ttf */; };
+		9A90A2E520423B4700B3E1AD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2D920423B4500B3E1AD /* Roboto-Thin.ttf */; };
+		9A90A2E620423B4700B3E1AD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2DA20423B4500B3E1AD /* Roboto-Black.ttf */; };
+		9A90A2E720423B4700B3E1AD /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2DB20423B4500B3E1AD /* Roboto-BoldItalic.ttf */; };
+		9A90A2E820423B4700B3E1AD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2DC20423B4500B3E1AD /* Roboto-Regular.ttf */; };
+		9A90A2E920423B4700B3E1AD /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2DD20423B4600B3E1AD /* Roboto-ThinItalic.ttf */; };
+		9A90A2EA20423B4700B3E1AD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2DE20423B4600B3E1AD /* Roboto-Bold.ttf */; };
+		9A90A2EB20423B4700B3E1AD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2DF20423B4600B3E1AD /* Roboto-Italic.ttf */; };
+		9A90A2EC20423B4700B3E1AD /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2E020423B4600B3E1AD /* Roboto-BlackItalic.ttf */; };
+		9A90A2ED20423B4700B3E1AD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2E120423B4600B3E1AD /* Roboto-Medium.ttf */; };
+		9A90A2EE20423B4700B3E1AD /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2E220423B4700B3E1AD /* Roboto-LightItalic.ttf */; };
+		9A90A2EF20423B4700B3E1AD /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A90A2E320423B4700B3E1AD /* Roboto-MediumItalic.ttf */; };
+		D984A3405BF70FF57831FD71 /* Pods_mashroo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D719C6109B12F0D2DAAD0F5F /* Pods_mashroo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AE26FD2B6801E3007C4DF95 /* Pods-mashroo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mashroo.release.xcconfig"; path = "Pods/Target Support Files/Pods-mashroo/Pods-mashroo.release.xcconfig"; sourceTree = "<group>"; };
+		9A006D9D203FA54100651026 /* mashroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mashroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A006DA0203FA54100651026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A006DA2203FA54100651026 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9A006DA5203FA54100651026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A006DA7203FA54100651026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A006DAA203FA54100651026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A006DAC203FA54100651026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A006DB5203FA5DC00651026 /* Mashroos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mashroos.swift; sourceTree = "<group>"; };
+		9A006DB7203FA5FE00651026 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A006DBD203FB42400651026 /* Mashroos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mashroos.json; sourceTree = "<group>"; };
+		9A23FEE12046CB2A000CA741 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		9A90A2D320421FCF00B3E1AD /* AnnotationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationDetailViewController.swift; sourceTree = "<group>"; };
+		9A90A2D520421FD500B3E1AD /* AnnotationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationDetailViewController.xib; sourceTree = "<group>"; };
+		9A90A2D820423B4500B3E1AD /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		9A90A2D920423B4500B3E1AD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		9A90A2DA20423B4500B3E1AD /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		9A90A2DB20423B4500B3E1AD /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9A90A2DC20423B4500B3E1AD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9A90A2DD20423B4600B3E1AD /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9A90A2DE20423B4600B3E1AD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		9A90A2DF20423B4600B3E1AD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		9A90A2E020423B4600B3E1AD /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9A90A2E120423B4600B3E1AD /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9A90A2E220423B4700B3E1AD /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		9A90A2E320423B4700B3E1AD /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D719C6109B12F0D2DAAD0F5F /* Pods_mashroo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mashroo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A82587A6C4E276048DEAF1 /* Pods-mashroo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mashroo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mashroo/Pods-mashroo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A006D9A203FA54100651026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D984A3405BF70FF57831FD71 /* Pods_mashroo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828553410266021C54818C4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5A82587A6C4E276048DEAF1 /* Pods-mashroo.debug.xcconfig */,
+				4AE26FD2B6801E3007C4DF95 /* Pods-mashroo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A006D94203FA54100651026 = {
+			isa = PBXGroup;
+			children = (
+				9A006D9F203FA54100651026 /* mashroo */,
+				9A006D9E203FA54100651026 /* Products */,
+				828553410266021C54818C4C /* Pods */,
+				D48C5B07EDBAEC0B7553F157 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A006D9E203FA54100651026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A006D9D203FA54100651026 /* mashroo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A006D9F203FA54100651026 /* mashroo */ = {
+			isa = PBXGroup;
+			children = (
+				9A90A2D720423B2A00B3E1AD /* Fonts */,
+				9A006DBF20403C9500651026 /* JSON */,
+				9A006DB2203FA54C00651026 /* Model */,
+				9A006DB3203FA54F00651026 /* View */,
+				9A006DB4203FA55100651026 /* Controller */,
+				9A006DA7203FA54100651026 /* Assets.xcassets */,
+				9A006DAC203FA54100651026 /* Info.plist */,
+				9A006DB7203FA5FE00651026 /* GoogleService-Info.plist */,
+			);
+			path = mashroo;
+			sourceTree = "<group>";
+		};
+		9A006DB2203FA54C00651026 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A006DB5203FA5DC00651026 /* Mashroos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A006DB3203FA54F00651026 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A006DA4203FA54100651026 /* Main.storyboard */,
+				9A90A2D520421FD500B3E1AD /* AnnotationDetailViewController.xib */,
+				9A006DA9203FA54100651026 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A006DB4203FA55100651026 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A006DA0203FA54100651026 /* AppDelegate.swift */,
+				9A006DA2203FA54100651026 /* MapViewController.swift */,
+				9A90A2D320421FCF00B3E1AD /* AnnotationDetailViewController.swift */,
+				9A23FEE12046CB2A000CA741 /* FavoritesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A006DBF20403C9500651026 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9A006DBD203FB42400651026 /* Mashroos.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		9A90A2D720423B2A00B3E1AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A90A2DA20423B4500B3E1AD /* Roboto-Black.ttf */,
+				9A90A2E020423B4600B3E1AD /* Roboto-BlackItalic.ttf */,
+				9A90A2DE20423B4600B3E1AD /* Roboto-Bold.ttf */,
+				9A90A2DB20423B4500B3E1AD /* Roboto-BoldItalic.ttf */,
+				9A90A2DF20423B4600B3E1AD /* Roboto-Italic.ttf */,
+				9A90A2D820423B4500B3E1AD /* Roboto-Light.ttf */,
+				9A90A2E220423B4700B3E1AD /* Roboto-LightItalic.ttf */,
+				9A90A2E120423B4600B3E1AD /* Roboto-Medium.ttf */,
+				9A90A2E320423B4700B3E1AD /* Roboto-MediumItalic.ttf */,
+				9A90A2DC20423B4500B3E1AD /* Roboto-Regular.ttf */,
+				9A90A2D920423B4500B3E1AD /* Roboto-Thin.ttf */,
+				9A90A2DD20423B4600B3E1AD /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D48C5B07EDBAEC0B7553F157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D719C6109B12F0D2DAAD0F5F /* Pods_mashroo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A006D9C203FA54100651026 /* mashroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A006DAF203FA54100651026 /* Build configuration list for PBXNativeTarget "mashroo" */;
+			buildPhases = (
+				E67D733C22544899B020937D /* [CP] Check Pods Manifest.lock */,
+				9A006D99203FA54100651026 /* Sources */,
+				9A006D9A203FA54100651026 /* Frameworks */,
+				9A006D9B203FA54100651026 /* Resources */,
+				D9F4CF21D71E70AF3364A17D /* [CP] Embed Pods Frameworks */,
+				54BDAC0F0F5BB2DE197EFB65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mashroo;
+			productName = mashroos;
+			productReference = 9A006D9D203FA54100651026 /* mashroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A006D95203FA54100651026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hassan El Desouky";
+				TargetAttributes = {
+					9A006D9C203FA54100651026 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A006D98203FA54100651026 /* Build configuration list for PBXProject "mashroo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A006D94203FA54100651026;
+			productRefGroup = 9A006D9E203FA54100651026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A006D9C203FA54100651026 /* mashroo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A006D9B203FA54100651026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A90A2ED20423B4700B3E1AD /* Roboto-Medium.ttf in Resources */,
+				9A90A2E920423B4700B3E1AD /* Roboto-ThinItalic.ttf in Resources */,
+				9A90A2EA20423B4700B3E1AD /* Roboto-Bold.ttf in Resources */,
+				9A90A2E520423B4700B3E1AD /* Roboto-Thin.ttf in Resources */,
+				9A90A2E820423B4700B3E1AD /* Roboto-Regular.ttf in Resources */,
+				9A90A2D620421FD500B3E1AD /* AnnotationDetailViewController.xib in Resources */,
+				9A006DAB203FA54100651026 /* LaunchScreen.storyboard in Resources */,
+				9A006DB8203FA5FE00651026 /* GoogleService-Info.plist in Resources */,
+				9A90A2EC20423B4700B3E1AD /* Roboto-BlackItalic.ttf in Resources */,
+				9A006DBE203FB42400651026 /* Mashroos.json in Resources */,
+				9A90A2E620423B4700B3E1AD /* Roboto-Black.ttf in Resources */,
+				9A90A2EE20423B4700B3E1AD /* Roboto-LightItalic.ttf in Resources */,
+				9A90A2E420423B4700B3E1AD /* Roboto-Light.ttf in Resources */,
+				9A006DA8203FA54100651026 /* Assets.xcassets in Resources */,
+				9A90A2EB20423B4700B3E1AD /* Roboto-Italic.ttf in Resources */,
+				9A90A2E720423B4700B3E1AD /* Roboto-BoldItalic.ttf in Resources */,
+				9A90A2EF20423B4700B3E1AD /* Roboto-MediumItalic.ttf in Resources */,
+				9A006DA6203FA54100651026 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54BDAC0F0F5BB2DE197EFB65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mashroo/Pods-mashroo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F4CF21D71E70AF3364A17D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mashroo/Pods-mashroo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mashroo/Pods-mashroo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67D733C22544899B020937D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mashroo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A006D99203FA54100651026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A23FEE22046CB2A000CA741 /* FavoritesTableViewController.swift in Sources */,
+				9A90A2D420421FCF00B3E1AD /* AnnotationDetailViewController.swift in Sources */,
+				9A006DA3203FA54100651026 /* MapViewController.swift in Sources */,
+				9A006DA1203FA54100651026 /* AppDelegate.swift in Sources */,
+				9A006DB6203FA5DC00651026 /* Mashroos.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A006DA4203FA54100651026 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A006DA5203FA54100651026 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A006DA9203FA54100651026 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A006DAA203FA54100651026 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A006DAD203FA54100651026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A006DAE203FA54100651026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A006DB0203FA54100651026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A82587A6C4E276048DEAF1 /* Pods-mashroo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC8UZFR7L3;
+				INFOPLIST_FILE = "$(SRCROOT)/mashroo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.mashroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A006DB1203FA54100651026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE26FD2B6801E3007C4DF95 /* Pods-mashroo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC8UZFR7L3;
+				INFOPLIST_FILE = "$(SRCROOT)/mashroo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.mashroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A006D98203FA54100651026 /* Build configuration list for PBXProject "mashroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A006DAD203FA54100651026 /* Debug */,
+				9A006DAE203FA54100651026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A006DAF203FA54100651026 /* Build configuration list for PBXNativeTarget "mashroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A006DB0203FA54100651026 /* Debug */,
+				9A006DB1203FA54100651026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A006D95203FA54100651026 /* Project object */;
+}
